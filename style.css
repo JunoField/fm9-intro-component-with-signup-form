@@ -9,3 +9,45 @@
 }
 
 
+body{
+    background: var(--red) url(./images/bg-intro-mobile.png);
+    margin: auto 27px auto 28px;
+}
+
+
+#intro{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 90px auto auto auto;
+}
+
+#intro h1{
+    color: white;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+#intro p{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 23px auto auto auto;
+    line-height: 26px;
+}
+
+
+#pricing-section{
+    background-color: var(--blue);
+    height: 87px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 62px;
+
+}
+
+#pricing-section p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: auto auto auto auto;
+}
