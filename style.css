@@ -6,6 +6,9 @@
 
     --darkBlue: hsl(249, 10%, 26%);
     --grayishBlue: hsl(246, 25%, 77%);
+
+    --lightGrey: hsl(0, 0%, 87%);
+    --darkGrey: hsl(250, 3%, 45%);
 }
 
 
@@ -18,7 +21,7 @@ body{
 #intro{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    margin: 90px auto auto auto;
+    margin: 92px auto auto auto;
 }
 
 #intro h1{
@@ -63,5 +66,29 @@ body{
     background-color: white;
     margin: 25px auto auto auto;
     border-radius: 10px;
-    padding: 10px;
+    padding: 25px;
+}
+
+/*labels are for screenreaders only*/
+label{
+    display: none; 
+}
+
+input{
+    height: 55px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 17px;
+
+    border: 1px solid var(--lightGrey);
+    border-radius: 5px;
+
+    padding-left: 19px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+::placeholder{
+    color: var(--darkGrey);
+    opacity: 1;
 }
