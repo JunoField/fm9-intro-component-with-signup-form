@@ -155,7 +155,7 @@ footer{
 
 
     #intro{
-        margin: 296px auto auto 138px;
+        margin: 42.5% auto auto 19.7%; /*top 196px left 138px*/
         text-align: left;
         
     }
@@ -172,8 +172,8 @@ footer{
 
     #pricing-and-form{  
         grid-column: 2;
-        margin-left: 18px;
-        margin-top: 105px;
+        /*margin-left: 18px;*/
+        margin: 15.5% 20% auto auto; /*105px*/
         width: 539px;
         justify-content: center;
     }
@@ -195,6 +195,7 @@ footer{
     input{ 
         height: 56px;
         margin-bottom: 20px;
+        padding-left: 32px;
     }
 
 
