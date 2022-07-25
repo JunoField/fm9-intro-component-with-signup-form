@@ -130,11 +130,20 @@ input{
     text-decoration: none;
 }
 
+
+footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+
 @media only screen and (min-width: 1000px){
     body{
         display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: auto auto;
+        grid-template-rows: 100%;
+        grid-template-columns: 50% 50%;
     }
 
     #intro{
@@ -142,13 +151,23 @@ input{
         grid-row: 1;
     }
 
-    #pricing-section{
+    #pricing-and-form{  
         grid-column: 2;
-        grid-row: 1;
     }
 
-    #sign-up-form{
-        grid-column: 2;
-        grid-row: 1;
+    #intro{
+        margin: 296px auto auto 138px;
+        text-align: left;
+        
+    }
+
+    #intro h1{
+        font-size: 48px;
+        line-height: 54px;
+        margin: unset;
+    }
+
+    #intro p{
+        margin: 31px auto auto auto;
     }
 }
