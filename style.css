@@ -144,6 +144,7 @@ footer{
         display: grid;
         grid-template-rows: 100%;
         grid-template-columns: 50% 50%;
+        padding: auto;
     }
 
     #intro{
@@ -151,9 +152,7 @@ footer{
         grid-row: 1;
     }
 
-    #pricing-and-form{  
-        grid-column: 2;
-    }
+
 
     #intro{
         margin: 296px auto auto 138px;
@@ -170,4 +169,32 @@ footer{
     #intro p{
         margin: 31px auto auto auto;
     }
+
+    #pricing-and-form{  
+        grid-column: 2;
+        margin-right: 134px;
+        margin-top: 105px;
+        width: 539px;
+    }
+
+    #pricing-section{
+        height: 60px;
+        margin: unset;
+        position: relative;
+    }
+
+    #pricing-section p{
+        padding-top: 19px;
+    }
+
+    #sign-up-form{
+        padding: 39px;
+    }
+
+    input{ 
+        height: 56px;
+        margin-bottom: 20px;
+    }
+
+
 }
