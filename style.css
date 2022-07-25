@@ -1,21 +1,18 @@
 :root{
-    --red: hsl(0, 100%, 74%);
+    --redBkgnd: hsl(0, 100%, 74%);
     --green: hsl(154, 59%, 51%);
     --darkGreen: hsl(154, 57%, 46%);
 
     --blue: hsl(248, 32%, 49%);
 
-    --darkBlue: hsl(249, 10%, 26%);
-    --grayishBlue: hsl(246, 25%, 77%);
-
     --lightGrey: hsl(0, 0%, 87%);
     --darkGrey: hsl(250, 3%, 45%);
-    --greyTosNotice: hsl(251, 10%, 65%);
+    --mediumGrey: hsl(251, 10%, 65%);
 }
 
 
 body{
-    background: var(--red) url(./images/bg-intro-mobile.png);
+    background: var(--redBkgnd) url(./images/bg-intro-mobile.png);
     margin: auto 27px auto 28px;
 }
 
@@ -118,7 +115,7 @@ input{
     text-align: center;
     line-height: 22px;
 
-    color: var(--greyTosNotice);
+    color: var(--mediumGrey);
 
     margin-top: -6px;
     padding-left: 16px;
