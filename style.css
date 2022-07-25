@@ -129,3 +129,26 @@ input{
     font-weight: 700;
     text-decoration: none;
 }
+
+@media only screen and (min-width: 1000px){
+    body{
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: auto auto;
+    }
+
+    #intro{
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #pricing-section{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #sign-up-form{
+        grid-column: 2;
+        grid-row: 1;
+    }
+}
