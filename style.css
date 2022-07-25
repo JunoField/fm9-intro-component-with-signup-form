@@ -172,9 +172,10 @@ footer{
 
     #pricing-and-form{  
         grid-column: 2;
-        margin-right: 134px;
+        margin-left: 18px;
         margin-top: 105px;
         width: 539px;
+        justify-content: center;
     }
 
     #pricing-section{
