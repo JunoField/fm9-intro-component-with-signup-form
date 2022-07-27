@@ -2,6 +2,7 @@
     --redBkgnd: hsl(0, 100%, 74%);
     --green: hsl(154, 59%, 51%);
     --darkGreen: hsl(154, 57%, 46%);
+    --lightGreen: hsl(154, 65%, 68%);
 
     --blue: hsl(248, 32%, 49%);
 
@@ -116,6 +117,11 @@ input:first-of-type{
     border: none;
     box-shadow: 0px 4px 0px 0px var(--darkGreen);
 
+}
+
+#submit-button:hover{
+    background-color: var(--lightGreen);
+    box-shadow: 0px 4px 0px 0px var(--green);
 }
 
 #tos-notice{
@@ -261,8 +267,7 @@ footer{
     }
     
     .input-error-state{
-        background-repeat: no-repeat;
-        background-position: 408px 14px;
+        background-position-x: 408px;
         padding-right: 40px;
     }
 

@@ -12,7 +12,7 @@
   
   <title>Frontend Mentor | Intro component with sign up form</title>
 
-
+  <script src="./validation.js" defer></script>
 </head>
 <body>
   <header id="intro">
@@ -45,7 +45,7 @@
       <label type="text" id="password-error" class="error-message">Password cannot be empty</label>
 
     
-      <input type="submit" value="Claim your free trial" id="submit-button">
+      <input type="button" value="Claim your free trial" id="submit-button" onClick="validateForm()">
     
       <p id="tos-notice">By clicking the button, you are agreeing to our "<a id="tos-link" href="#">Terms and Services</a>" [sic]</p>
     </form>
