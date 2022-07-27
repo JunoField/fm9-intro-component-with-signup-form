@@ -74,7 +74,7 @@ body{
     box-shadow: 0px 9px 0px 0px rgba(0, 0, 0, 20%);
 }
 
-/*labels are for screenreaders only*/
+/*labels are for screenreaders only as we have placeholders*/
 label{
     display: none; 
 }
@@ -99,11 +99,11 @@ input:first-of-type{
     margin-top: 0px;
 }
 
-
 ::placeholder{
     color: var(--darkGrey);
     opacity: 1;
 }
+
 
 #submit-button{
     padding: unset;
@@ -124,28 +124,28 @@ input:first-of-type{
     box-shadow: 0px 4px 0px 0px var(--green);
 }
 
+/*"by clicking the button..." notice at bottom of form*/
 #tos-notice{
     font-family: 'Poppins', sans-serif;
     font-size: 11px;
     text-align: center;
     line-height: 22px;
-
     color: var(--mediumGrey);
 
     margin-top: 10px;
     padding-left: 16px;
     padding-right: 16px;
-
     margin-bottom: -2px;
 }
 
+/*this is for link only, not the whole notice so do not apply positioning*/
 #tos-link{
     color: var(--darkGreen);
     font-weight: 700;
     text-decoration: none;
-
 }
 
+/*needs improvement - cant align to right so looks bad on mobile*/
 .error-message{
     display: none;
     color: var(--redError);
@@ -158,16 +158,19 @@ input:first-of-type{
     padding: 0px;
 }
 
+
 /*this msg is a different length so margin is different*/
 /*does not need to be applied and reapplied as already hidden*/
 #password-error{
     margin-left: 116px;
 }
 
+/*used to make errors visible*/
 .error-message-active{
     display: unset;
 }
 
+/*applied to input fields if an error has occured on said field*/
 .input-error-state{
     border: 2px solid var(--redError);
     background-image: url(./images/icon-error.svg);
@@ -175,6 +178,7 @@ input:first-of-type{
     background-position: 96% 14px;
     padding-right: 40px;
 }
+
 
 
 footer{
@@ -204,9 +208,8 @@ footer{
     }
 
 
-
     #intro{
-        margin: 42.5% auto auto 19.7%; /*top 196px left 138px*/
+        margin: 42.5% auto auto 19.7%;
         text-align: left;
         
     }
@@ -221,10 +224,10 @@ footer{
         margin: 31px auto auto auto;
     }
 
+    /*includes blue pricing box as well as the form*/
     #pricing-and-form{  
         grid-column: 2;
-        /*margin-left: 18px;*/
-        margin: 15.4% 20% auto auto; /*105px*/
+        margin: 15.4% 20% auto auto;
         width: 539px;
         justify-content: center;
     }
@@ -248,8 +251,6 @@ footer{
         margin-top: 20px;
         padding-left: 32px;
     }
-
-
 
     #tos-notice{
         margin-bottom: 2px;
