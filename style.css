@@ -153,6 +153,7 @@ input:first-of-type{
 }
 
 /*this msg is a different length so margin is different*/
+/*does not need to be applied and reapplied as already hidden*/
 #password-error{
     margin-left: 116px;
 }
@@ -161,6 +162,13 @@ input:first-of-type{
     display: unset;
 }
 
+.input-error-state{
+    border: 2px solid var(--redError);
+    background-image: url(./images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 96% 14px;
+    padding-right: 40px;
+}
 
 
 footer{
@@ -247,8 +255,15 @@ footer{
     }
     
     /*this msg is a different length so margin is different*/
+    /*does not need to be applied and reapplied as already hidden*/
     #password-error{
         margin-left: 306px;
+    }
+    
+    .input-error-state{
+        background-repeat: no-repeat;
+        background-position: 408px 14px;
+        padding-right: 40px;
     }
 
 }
