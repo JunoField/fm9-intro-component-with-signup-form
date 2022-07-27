@@ -82,7 +82,7 @@ input{
     height: 55px;
     box-sizing: border-box;
     width: 100%;
-    margin-bottom: 17px;
+    margin-top: 17px;
 
     border: 1px solid var(--lightGrey);
     border-radius: 5px;
@@ -92,6 +92,10 @@ input{
     font-size: 14px;
     font-weight: 600;
     color: var(--darkerGrey);
+}
+
+input:first-of-type{
+    margin-top: 0px;
 }
 
 
@@ -122,7 +126,7 @@ input{
 
     color: var(--mediumGrey);
 
-    margin-top: -6px;
+    margin-top: 10px;
     padding-left: 16px;
     padding-right: 16px;
 
@@ -133,17 +137,28 @@ input{
     color: var(--darkGreen);
     font-weight: 700;
     text-decoration: none;
+
 }
 
 .error-message{
-    display: unset;
+    display: none;
     color: var(--redError);
     font-family: 'Poppins', sans-serif;
     font-size: 11px;
     font-style: italic;
+    font-weight: 500;
 
-    position: relative;
-    padding-top: 0px;
+    margin: -10px 0px auto 110px;
+    padding: 0px;
+}
+
+/*this msg is a different length so margin is different*/
+#password-error{
+    margin-left: 116px;
+}
+
+.error-message-active{
+    display: unset;
 }
 
 
@@ -195,7 +210,7 @@ footer{
     #pricing-and-form{  
         grid-column: 2;
         /*margin-left: 18px;*/
-        margin: 15.5% 20% auto auto; /*105px*/
+        margin: 15.4% 20% auto auto; /*105px*/
         width: 539px;
         justify-content: center;
     }
@@ -216,7 +231,7 @@ footer{
 
     input{ 
         height: 56px;
-        margin-bottom: 20px;
+        margin-top: 20px;
         padding-left: 32px;
     }
 
@@ -224,6 +239,16 @@ footer{
 
     #tos-notice{
         margin-bottom: 2px;
+    }
+
+    .error-message{    
+        margin: -10px 0px auto 300px;
+        padding: 0px;
+    }
+    
+    /*this msg is a different length so margin is different*/
+    #password-error{
+        margin-left: 306px;
     }
 
 }
